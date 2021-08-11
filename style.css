@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .wrapper {
   max-width: 100%;
   display: flex;
@@ -14,7 +13,7 @@
 
 .mylogo {
   color: #6070ff;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 18px;
   font-weight: bold;
@@ -39,7 +38,7 @@
 
 h1 {
   color: #172b4d;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -49,7 +48,7 @@ h1 {
 
 p {
   color: #172b4d;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -59,7 +58,7 @@ p {
 
 .connect {
   color: #7f8cff;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
