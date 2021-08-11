@@ -13,7 +13,7 @@
 
 .mylogo {
   color: #6070ff;
-  font-family: Roboto;
+  font-family: Roboto, "Helvetica Neue",;
   font-style: normal;
   font-size: 18px;
   font-weight: bold;
@@ -38,7 +38,7 @@
 
 h1 {
   color: #172b4d;
-  font-family: Roboto;
+  font-family: Roboto, "Helvetica Neue",;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -48,7 +48,7 @@ h1 {
 
 p {
   color: #172b4d;
-  font-family: Roboto;
+  font-family: Roboto, "Helvetica Neue",;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -58,7 +58,7 @@ p {
 
 .connect {
   color: #7f8cff;
-  font-family: Roboto;
+  font-family: Roboto, "Helvetica Neue",;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
