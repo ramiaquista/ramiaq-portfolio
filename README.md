@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Module 1 Day 3 Mobile Portfolio - Ramiro Aquistapace
+# Module 1 Day 3 Personal Portfolio - Ramiro Aquistapace
 
 > In this project, I have set up a Personal portfolio site, and a mobile version skeleton.
 
