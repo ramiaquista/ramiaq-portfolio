@@ -6,7 +6,15 @@
 
 
 ![screenshot](./sc-landingpage.png)
+
+
+> My own personal projects.
+
 ![screenshot](./sc-workcards.png)
+
+> Other's collaborative projects.
+
+![screenshot](./sc-workcards2.png)
 
 
 ## Built With
