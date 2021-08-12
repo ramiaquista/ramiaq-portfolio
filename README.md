@@ -5,7 +5,8 @@
 > In this project, I have set up a Personal portfolio site, and a mobile version skeleton.
 
 
-![screenshot](./read-img1.png)
+![screenshot](./sc-landingpage.png)
+![screenshot](./sc-workcards.png)
 
 
 ## Built With
