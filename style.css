@@ -29,6 +29,7 @@ body {
   line-height: 20px;
   flex: 1;
   padding-left: 2%;
+  text-decoration: none;
 }
 
 .icon {
@@ -88,6 +89,10 @@ li {
   flex: 1;
 }
 
-.social-media {
+.dflex {
   display: flex;
+}
+
+i {
+  color: #6070ff;
 }
