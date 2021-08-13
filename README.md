@@ -16,6 +16,15 @@
 
 ![screenshot](./sc-workcards2.png)
 
+> About me Section!
+
+![screenshot](./about-me1.png)
+
+> More about me!
+
+![screenshot](./about-me2.png)
+
+
 
 ## Built With
 
