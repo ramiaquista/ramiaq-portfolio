@@ -5,16 +5,16 @@
 > In this project, I have set up a Personal portfolio site, and a mobile version skeleton.
 
 
-![screenshot](./img/sc-landingpage.png)
+![screenshot](./sc-landingpage.png)
 
 
 > My own personal projects.
 
-![screenshot](./img/sc-workcards.png)
+![screenshot](./sc-workcards.png)
 
 > Other's collaborative projects.
 
-![screenshot](./img/sc-workcards2.png)
+![screenshot](./sc-workcards2.png)
 
 > About me Section!
 

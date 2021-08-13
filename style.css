@@ -376,3 +376,8 @@ h4 {
   display: flex;
   padding-right: 9%;
 }
+
+a:hover {
+  padding: 0.1px;
+  background-color: #ebebff;
+}
