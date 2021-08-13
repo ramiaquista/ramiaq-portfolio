@@ -8,24 +8,6 @@
 ![screenshot](./sc-landingpage.png)
 
 
-> My own personal projects.
-
-![screenshot](./sc-workcards.png)
-
-> Other's collaborative projects.
-
-![screenshot](./sc-workcards2.png)
-
-> About me Section!
-
-![screenshot](./img/about-me1.png)
-
-> More about me!
-
-![screenshot](./img/about-me2.png)
-
-
-
 ## Built With
 
 - HTML - CSS

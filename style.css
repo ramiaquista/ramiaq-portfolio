@@ -110,7 +110,7 @@ i {
 }
 
 .grid {
-  width: 87%;
+  width: 100%;
   padding: 0%;
   background: #e5e5e5;
   display: grid;
@@ -120,6 +120,7 @@ i {
 }
 
 .card-work {
+  width: 74%;
   padding: 5%;
   background-color: #fff;
   border-radius: 1.2rem;
@@ -314,6 +315,7 @@ h4 {
   margin-left: 1%;
   display: flex;
   margin-bottom: 4%;
+  list-style-type: none;
 }
 
 .skill {
@@ -380,4 +382,10 @@ h4 {
 a:hover {
   padding: 0.1px;
   background-color: #ebebff;
+}
+
+.skills-list {
+  padding: 0%;
+  margin: 0%;
+  margin-bottom: 13%;
 }
