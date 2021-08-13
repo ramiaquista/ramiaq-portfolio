@@ -389,3 +389,9 @@ a:hover {
   margin: 0%;
   margin-bottom: 13%;
 }
+
+.i-btn:hover {
+  border-radius: 1.5rem;
+  padding: 5%;
+  background-color: #ebebff;
+}
