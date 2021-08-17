@@ -64,7 +64,7 @@ nav {
 
 .about-me {
   margin-left: 6%;
-  padding-right: 20px; 
+  padding-right: 20px;
   color: #344563;
 }
 
@@ -436,7 +436,7 @@ textarea {
 }
 
 form input::placeholder {
-  color: #172B4D;
+  color: #172b4d;
 }
 
 form > * {
@@ -468,4 +468,3 @@ form > * {
 form textarea {
   height: 17vh;
 }
-
