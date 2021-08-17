@@ -64,6 +64,8 @@ nav {
 
 .about-me {
   margin-left: 6%;
+  padding-right: 20px; 
+  color: #344563;
 }
 
 p {
@@ -264,6 +266,7 @@ h4 {
 .myself-description {
   display: flex;
   margin-right: 6%;
+  color: #344563;
 }
 
 .self-connect {
@@ -403,12 +406,13 @@ a:hover {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
-  height: 120vh;
+  height: 80vh;
   flex-direction: column;
   padding: 10%;
   align-items: center;
   justify-content: center;
   text-align: center;
+  border-top-left-radius: 120px;
 }
 
 .contact-section h1,
@@ -419,14 +423,20 @@ p {
 
 #contact-title {
   font-size: 40px;
+  padding-top: 40px;
 }
 
 form input,
 textarea {
   border-radius: 8px;
   border: 0;
-  padding: 10px;
+  padding: 13px;
   width: 96%;
+  font-family: "Poppins", sans-serif;
+}
+
+form input::placeholder {
+  color: #172B4D;
 }
 
 form > * {
@@ -436,12 +446,26 @@ form > * {
 
 #contact-dt {
   margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
 }
 
 .contact-section button {
-  padding: 10px;
+  padding: 12px;
   border-radius: 8px;
   border: 0;
   color: #6070ff;
-  font-family: ;
+  font-size: 17px;
+  width: 29vw;
 }
+
+#contact-container {
+  background-color: white;
+  padding-top: 50px;
+}
+
+form textarea {
+  height: 17vh;
+}
+
