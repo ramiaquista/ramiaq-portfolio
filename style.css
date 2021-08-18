@@ -218,18 +218,7 @@ h4 {
   margin: 0%;
   margin-top: 3%;
   font-weight: 500;
-}
-
-.project-review {
-  color: #396df2;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  text-align: center;
-  margin: 5px;
-  padding: 0%;
-  display: inline-flex;
+  font-size: 12px;
 }
 
 .project-btn {
@@ -242,10 +231,19 @@ h4 {
   align-items: center;
   margin-bottom: 3%;
   flex-wrap: wrap;
+  color: #396df2;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  margin: 5px;
+  padding: 0%;
+  display: inline-flex;
 }
 
 .about-myself-wrapper {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -556,5 +554,67 @@ form textarea {
 
   .nav-itm:hover {
     text-decoration: underline;
+  }
+
+  .card-work {
+    margin-bottom: 10%;
+  }
+
+  #work1,
+  #work3 {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+  }
+
+  #work2, #work4{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 30px;
+  }
+
+  #work2 .work-details, #work4 .work-details {
+    display: flex;
+    margin-right: 60px;
+  }
+
+  .card-work img {
+    height: 55vh;
+    display: flex;
+  }
+
+  #work1 .work-details, #work3 .work-details {
+    display: flex;
+    margin-left: 60px;
+  }
+
+  .work-details a:hover {
+    background-color: #4053fc;
+    color: white;
+  }
+
+  .work-details a {
+    font-size: 17px;
+    width: 35%;
+    margin-top: 30px;
+    padding: 10px;
+  }
+
+  .work-details h1 {
+    margin-top: 30px;
+    font-size: 45px;
+  }
+
+  .work-details .work-subtitle {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+
+  .work-details .work-role {
+    font-size: 18px;
+  }
+
+  .work-details p {
+    margin-bottom: 25px;
   }
 }
