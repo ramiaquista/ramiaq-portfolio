@@ -640,6 +640,10 @@ form textarea {
     padding-left: 6%;
   }
 
+  .about-myself ul {
+    width: 33%;
+  }
+
   .about-myskills {
     padding: 0%;
     width: 50%;
@@ -678,5 +682,61 @@ form textarea {
   .about-myself a:hover {
     background-color: #4053fc;
     color: white;
+  }
+
+  .contact-section {
+    background-color: #6070ff;
+    background-image: url("img/big-screen-contact.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 80vh;
+    flex-direction: column;
+    text-align: center;
+    border-top-left-radius: 120px;
+    display: flex;
+    padding-top: 4%;
+  }
+
+  .contact-section form {
+    justify-self: center;
+    width: 50%;
+  }
+
+  .contact-section #contact-dt {
+    display: flex;
+    width: 55%;
+  }
+
+  .contact-section input {
+    border-radius: 2px;
+    margin-bottom: 6%;
+    height: 8%;
+  }
+
+  .contact-section input::placeholder {
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  textarea {
+    border-radius: 2px;
+    margin-bottom: 6%;
+  }
+
+  textarea::placeholder {
+    font-size: 15px;
+  }
+
+  .contact-section button {
+    width: 30%;
+    height: 6vh;
+    border-radius: 8px;
+    margin-left: 38%;
+    text-align: center;
+  }
+
+  .contact-section button:hover {
+    border: 0.1px solid black;
   }
 }
