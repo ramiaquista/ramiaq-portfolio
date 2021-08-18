@@ -258,6 +258,13 @@ h4 {
   padding-left: 6%;
 }
 
+.about-myskills {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left: 6%;
+}
+
 .myself-title {
   color: #172b4d;
   font-family: "Poppins", sans-serif;
@@ -388,11 +395,6 @@ h4 {
   display: flex;
   padding-right: 9%;
 }
-
-/* a:hover {
-  padding: 0.1px;
-  background-color: #ebebff;
-} */
 
 .skills-list {
   padding: 0%;
@@ -618,5 +620,63 @@ form textarea {
 
   .work-details p {
     margin-bottom: 25px;
+  }
+
+  .about-myself-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    border-top-right-radius: 13rem;
+    background-color: #fff;
+    padding-bottom: 100px;
+  }
+
+  .about-myself {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    padding-left: 6%;
+  }
+
+  .about-myskills {
+    padding: 0%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-myskills h2 {
+    color: #344563;
+  }
+
+  .about-myskills ul {
+    display: flex;
+    flex-direction: row;
+    align-self: start;
+    margin-bottom: 3%;
+  }
+
+  .about-myskills li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 10vw;
+    margin-right: 15px;
+  }
+
+  .elip-img {
+    width: 60px;
+  }
+
+  .skills-list h3 {
+    align-self: start;
+    padding-left: 10px;
+  }
+
+  .about-myself a:hover {
+    background-color: #4053fc;
+    color: white;
   }
 }
