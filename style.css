@@ -492,6 +492,7 @@ form textarea {
   #hamb-icon {
     display: none;
   }
+
   .nav-cmp {
     display: flex;
     flex-direction: row;
@@ -525,7 +526,7 @@ form textarea {
     line-height: 60px;
     align-items: center;
     letter-spacing: 0.37px;
-    margin-top: 0px;
+    margin-top: 0%;
     margin-bottom: 2%;
   }
 
