@@ -25,8 +25,12 @@ body {
   width: 100%;
   align-content: space-around;
   background-color: #fff;
-  padding-top: 6%;
+  padding-top: 4%;
   height: 6vh;
+}
+
+.nav-cmp {
+  display: none;
 }
 
 .mylogo {
@@ -62,8 +66,13 @@ nav {
   margin-left: 6%;
 }
 
+#title-break {
+  display: none;
+}
+
 .about-me {
   margin-left: 6%;
+  margin-right: 10%;
   padding-right: 20px;
   color: #344563;
 }
@@ -383,10 +392,10 @@ h4 {
   padding-right: 9%;
 }
 
-a:hover {
+/* a:hover {
   padding: 0.1px;
   background-color: #ebebff;
-}
+} */
 
 .skills-list {
   padding: 0%;
@@ -395,8 +404,7 @@ a:hover {
 }
 
 .i-btn:hover {
-  border-radius: 1.5rem;
-  padding: 5%;
+  border-radius: 0.3rem;
   background-color: #ebebff;
 }
 
@@ -406,7 +414,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
-  height: 80vh;
+  height: 100vh;
   flex-direction: column;
   padding: 10%;
   align-items: center;
@@ -415,8 +423,7 @@ a:hover {
   border-top-left-radius: 120px;
 }
 
-.contact-section h1,
-p {
+.contact-section h1 {
   color: white;
   font-family: "Poppins", sans-serif;
 }
@@ -467,4 +474,86 @@ form > * {
 
 form textarea {
   height: 17vh;
+}
+
+.contact-section p {
+  color: white;
+}
+
+@media only screen and (min-width: 992px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+    padding-left: 6%;
+    width: auto;
+  }
+
+  #hamb-icon {
+    display: none;
+  }
+  .nav-cmp {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-between;
+    width: 30%;
+    padding-left: 7%;
+    margin-right: 9%;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background: url(img/big-screen-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    height: 105vh;
+    border-bottom-left-radius: 13rem;
+  }
+
+  .container {
+    margin-left: 10%;
+    flex-wrap: wrap;
+    margin-top: 17%;
+  }
+
+  .container h1 {
+    font-size: 48px;
+    line-height: 60px;
+    align-items: center;
+    letter-spacing: 0.37px;
+    margin-top: 0px;
+    margin-bottom: 2%;
+  }
+
+  .container #title-break {
+    display: flex;
+  }
+
+  .container .about-me {
+    margin-right: 25%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 2%;
+  }
+
+  .social-ic {
+    margin-bottom: 10%;
+    width: 15%;
+  }
+
+  .nav-itm {
+    user-select: none;
+    color: #344563;
+    text-decoration: none;
+  }
+
+  .nav-itm:hover {
+    text-decoration: underline;
+  }
 }
