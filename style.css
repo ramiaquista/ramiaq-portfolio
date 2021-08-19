@@ -750,4 +750,12 @@ form textarea {
   .contact-section button:hover {
     border: 0.1px solid black;
   }
+
+  .coding-lng:hover {
+    transform: translate(5px);
+  }
+
+  #contact-dt:hover {
+    transform: translate(20px);
+  }
 }
