@@ -554,22 +554,19 @@ form textarea {
     margin-bottom: 10%;
   }
 
-  #work1,
-  #work3 {
+  .normal {
     display: flex;
     flex-direction: row;
     padding: 30px;
   }
 
-  #work2,
-  #work4 {
+  .reverse {
     display: flex;
     flex-direction: row-reverse;
     padding: 30px;
   }
 
-  #work2 .work-details,
-  #work4 .work-details {
+  .reverse .work-details {
     display: flex;
     margin-right: 60px;
   }
@@ -583,8 +580,7 @@ form textarea {
     transform: scale(1.06, 1.06);
   }
 
-  #work1 .work-details,
-  #work3 .work-details {
+  .normal .work-details {
     display: flex;
     margin-left: 60px;
   }
