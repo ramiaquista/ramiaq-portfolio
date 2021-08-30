@@ -514,12 +514,16 @@ form textarea {
   margin-top: 32px;
 }
 
-#options-list > li {
+#options-list > li > a {
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   font-family: "Poppins", sans-serif;
   color: #fff;
+  text-decoration: none;
+}
+
+#options-list > li {
   margin-bottom: 40px;
 }
 

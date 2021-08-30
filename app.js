@@ -1,7 +1,7 @@
 let hamButton = document.getElementById("hamb-icon");
 let menuSection = document.getElementById("m-menu");
 let cancelButton = document.getElementById("cancel-icon");
-let menuOptions = document.querySelectorAll("#options-list > li");
+let menuOptions = document.querySelectorAll("#options-list > li > a");
 
 for (let option of menuOptions) {
   option.addEventListener("click", function () {
