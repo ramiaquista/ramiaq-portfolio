@@ -7,6 +7,14 @@ menuOptions[0].addEventListener('click', () => {
   menuSection.classList.add('d-none');
 });
 
+menuOptions[1].addEventListener('click', () => {
+  menuSection.classList.add('d-none');
+});
+
+menuOptions[2].addEventListener('click', () => {
+  menuSection.classList.add('d-none');
+});
+
 hamButton.addEventListener('click', () => {
   menuSection.classList.remove('d-none');
 });
