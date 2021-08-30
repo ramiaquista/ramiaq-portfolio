@@ -479,6 +479,20 @@ form textarea {
   color: white;
 }
 
+.mobile-menu {
+  background: rgba(0, 0, 255, 0.55);
+  backdrop-filter: blur(10px);
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.d-none {
+  display: none;
+}
+
 @media only screen and (min-width: 1100px) {
   .header {
     display: flex;
