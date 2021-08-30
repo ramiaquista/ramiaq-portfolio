@@ -495,7 +495,7 @@ form textarea {
 
 .menu-header {
   display: flex;
-  margin-top: 23px;
+  margin-top: 33px;
 }
 
 .menu-header > i {
@@ -506,6 +506,21 @@ form textarea {
 #cancel-icon {
   color: white;
   font-size: 20px;
+}
+
+#options-list {
+  text-decoration: none;
+  list-style: none;
+  margin-top: 32px;
+}
+
+#options-list > li {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 1100px) {
