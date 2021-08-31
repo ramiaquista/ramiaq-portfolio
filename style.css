@@ -541,14 +541,16 @@ form textarea {
 
 .popup-container {
   margin: 10% 16px;
-  height: 85%;
+  height: auto;
   border-radius: 0.8rem;
   background-color: #fff;
+  padding: 15px 20px;
+  flex-direction: column;
 }
 
 #popup-cancel-icon {
   color: #67798e;
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 .popup-header {
@@ -558,6 +560,109 @@ form textarea {
 .popup-title {
   margin: 0%;
   margin-right: auto;
+  font-style: normal;
+  font-size: 32px;
+  color: #172b4d;
+}
+
+.popup-info {
+  width: 70%;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.popup-work-subtitle {
+  color: #344563;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.popup-work-role {
+  color: #7a869a;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.popup-work-date {
+  color: #7a869a;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.popup-img-container {
+  margin-bottom: 3%;
+}
+
+.popup-image {
+  object-fit: cover;
+  width: 100%;
+}
+
+.popup-description {
+  color: #344563;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.popup-technologies {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  list-style-type: none;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  padding: 0%;
+  height: 22px;
+}
+
+.popup-tech-item {
+  background-color: #ebebff;
+  border-radius: 10px;
+  color: #6070ff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  justify-content: center;
+  margin-right: 4%;
+}
+
+.popup-link-buttons {
+  border-top: #ebecf0 1px solid;
+  padding-top: 5%;
+}
+
+.btn-popup-style {
+  display: inline-flex;
+  text-decoration: none;
+  border: 1.5px solid #396df2;
+  width: 40%;
+  border-radius: 7px;
+  margin-left: 20px;
+  margin-bottom: 3%;
+  flex-wrap: wrap;
+  color: #396df2;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  padding: 2%;
+  padding-left: 2%;
+  background-color: white;
+}
+
+.external-link-icon {
+  margin-top: 3%;
+  margin-left: 15%;
+}
+
+.github-link-icon {
+  margin: 0%;
+  margin-left: 7%;
 }
 
 @media only screen and (min-width: 1100px) {
