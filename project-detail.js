@@ -88,5 +88,20 @@ projectBtn.forEach((item, i) => {
       li.innerHTML = tech;
       popupTechs.appendChild(li);
     });
+    popupLiveBtn.addEventListener('click', () => {
+      window.location.href = projects[i].live;
+    });
+    popupSourceBtn.addEventListener('click', () => {
+      window.location.href = projects[i].source;
+    });
+  });
+});
+
+const cancelProjectButton = document.getElementById('popup-cancel-icon');
+
+cancelProjectButton.addEventListener('click', () => {
+  popupDetails.classList.add('d-none');
+  document.querySelectorAll('.popup-tech-item').forEach((item) => {
+    popupTechs.removeChild(item);
   });
 });
