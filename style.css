@@ -527,6 +527,42 @@ form textarea {
   margin-bottom: 40px;
 }
 
+/* Popup Window Project Details */
+
+.popup-details {
+  background: rgba(167, 173, 181, 0.6);
+  backdrop-filter: blur(2px);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.popup-container {
+  margin: 10% 16px;
+  height: 85%;
+  border-radius: 0.8rem;
+  background-color: #fff;
+}
+
+#popup-cancel-icon {
+  color: #67798E;
+}
+
+.popup-header {
+  align-items: baseline;
+}
+
+.popup-title {
+  margin: 0px;
+  margin-right: auto;
+}
+
+#popup-cancel-icon {
+  margin-right: 20px;
+}
+
 @media only screen and (min-width: 1100px) {
   .header {
     display: flex;
