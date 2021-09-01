@@ -4,7 +4,7 @@ body {
   padding: 0%;
   margin: 0%;
   background-color: #e5e5e5;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .wrapper {
@@ -35,7 +35,7 @@ body {
 
 .mylogo {
   color: #6070ff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 18px;
   font-weight: bold;
@@ -58,7 +58,7 @@ nav {
 
 .welcome {
   color: #172b4d;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 40px;
@@ -79,7 +79,7 @@ nav {
 
 p {
   color: #344563;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -89,7 +89,7 @@ p {
 
 .connect {
   color: #7f8cff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -148,7 +148,7 @@ i {
 
 .work-name {
   color: #172b4d;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -167,7 +167,7 @@ i {
 
 .work-subtitle {
   color: #344563;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -176,7 +176,7 @@ i {
 
 .work-role {
   color: #7a869a;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -193,7 +193,7 @@ i {
   background-color: #ebebff;
   border-radius: 10px;
   color: #6070ff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -233,7 +233,7 @@ h4 {
   margin-bottom: 3%;
   flex-wrap: wrap;
   color: #396df2;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -267,7 +267,7 @@ h4 {
 
 .myself-title {
   color: #172b4d;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -284,7 +284,7 @@ h4 {
 
 .self-connect {
   color: #7f8cff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -306,7 +306,7 @@ h4 {
 
 .lng {
   color: #000;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -337,7 +337,7 @@ h4 {
 
 .skill {
   color: #253858;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -354,7 +354,7 @@ h4 {
 
 .frm {
   color: #000;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -370,7 +370,7 @@ h4 {
 
 .skl {
   color: #000;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -409,11 +409,11 @@ h4 {
 
 .contact-section {
   background-color: #6070ff;
-  background-image: url("img/contact-form-bg.png");
+  background-image: url('img/contact-form-bg.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
-  height: 100vh;
+  min-height: 100vh;
   flex-direction: column;
   padding: 10%;
   align-items: center;
@@ -424,7 +424,7 @@ h4 {
 
 .contact-section h1 {
   color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 #contact-title {
@@ -438,7 +438,7 @@ textarea {
   border: 0;
   padding: 13px;
   width: 96%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 form input::placeholder {
@@ -518,7 +518,7 @@ form textarea {
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   text-decoration: none;
 }
@@ -616,7 +616,7 @@ form textarea {
   background-color: #ebebff;
   border-radius: 10px;
   color: #6070ff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -641,7 +641,7 @@ form textarea {
   margin-bottom: 3%;
   flex-wrap: wrap;
   color: #396df2;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -668,6 +668,18 @@ form textarea {
 
 .popup-description-desktop {
   display: none;
+}
+
+/* Error message */
+
+#error-msg {
+  color: white;
+  background-color: rgba(255, 0, 0, 0.6);
+  border-radius: 3px;
+}
+
+.error-border {
+  border: 1px solid rgba(255, 0, 0, 0.6);
 }
 
 @media only screen and (min-width: 1100px) {
@@ -884,11 +896,11 @@ form textarea {
 
   .contact-section {
     background-color: #6070ff;
-    background-image: url("img/big-screen-contact.png");
+    background-image: url('img/big-screen-contact.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
-    height: 80vh;
+    min-height: 80vh;
     flex-direction: column;
     text-align: center;
     border-top-left-radius: 120px;
@@ -1013,7 +1025,7 @@ form textarea {
   .popup-image {
     padding: 0%;
     margin-bottom: 2%;
-    content: url("svg/project-popup-image.svg");
+    content: url('svg/project-popup-image.svg');
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -1066,7 +1078,7 @@ form textarea {
     background-color: #ebebff;
     border-radius: 10px;
     color: #6070ff;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -1093,7 +1105,7 @@ form textarea {
     margin-bottom: 3%;
     flex-wrap: wrap;
     color: #396df2;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
