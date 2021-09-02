@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -963,8 +967,9 @@ form textarea {
   .popup-details {
     background: rgba(167, 173, 181, 0.6);
     backdrop-filter: blur(2px);
-    height: auto;
-    position: absolute;
+    height: 100vh;
+    position: fixed;
+    overflow: scroll;
     top: 0;
     left: 0;
     right: 0;

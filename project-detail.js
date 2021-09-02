@@ -94,6 +94,7 @@ projectBtn.forEach((item, i) => {
     popupSourceBtn.addEventListener('click', () => {
       window.location.href = projects[i].source;
     });
+    document.body.style.overflow = 'hidden';
   });
 });
 
@@ -104,4 +105,5 @@ cancelProjectButton.addEventListener('click', () => {
   document.querySelectorAll('.popup-tech-item').forEach((item) => {
     popupTechs.removeChild(item);
   });
+  document.body.style.overflow = 'auto';
 });
