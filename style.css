@@ -446,7 +446,7 @@ textarea {
 }
 
 form input::placeholder {
-  color: #172b4d;
+  color: grey;
 }
 
 form > * {
