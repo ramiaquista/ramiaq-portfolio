@@ -15,3 +15,9 @@ function populateStorage() {
 nameStorage.onchange = populateStorage;
 emailStorage.onchange = populateStorage;
 msgStorage.onchange = populateStorage;
+
+var storageData = JSON.parse(localStorage.getItem('formData'));
+
+nameStorage.value = storageData.name;
+emailStorage.value = storageData.email;
+msgStorage.value = storageData.msg;
