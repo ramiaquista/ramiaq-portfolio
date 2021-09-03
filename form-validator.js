@@ -4,7 +4,7 @@ const msg = document.getElementById('error-msg');
 const ERROR_MSG = 'The email address has to be in lowercase.';
 
 form.addEventListener('submit', (event) => {
-  if (emailInput.value !== emailInput.value.toLowerCase()) {
+  if (emailInput.value === emailInput.value.toLowerCase()) {
     msg.innerText = ERROR_MSG;
     emailInput.classList.add('error-border');
     event.preventDefault();

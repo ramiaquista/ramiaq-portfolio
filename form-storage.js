@@ -6,7 +6,7 @@ const msgStorage = formStorage.elements.msg;
 function populateStorage() {
   const formData = {
     name: nameStorage.value,
-    email: emailStorage.value,
+    email: nameStorage.value,
     msg: msgStorage.value,
   };
   localStorage.setItem('formData', JSON.stringify(formData));
@@ -18,6 +18,6 @@ msgStorage.onchange = populateStorage;
 
 const storageData = JSON.parse(localStorage.getItem('formData'));
 
-nameStorage.value = storageData.name;
+nameStorage.value = storageData.email;
 emailStorage.value = storageData.email;
 msgStorage.value = storageData.msg;
