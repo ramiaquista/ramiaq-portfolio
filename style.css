@@ -545,7 +545,7 @@ form textarea {
 
 .popup-container {
   margin: 30px 16px;
-  height: 90%;
+  height: auto;
   border-radius: 0.8rem;
   background-color: #fff;
   padding: 15px 20px;
@@ -1030,7 +1030,7 @@ form textarea {
   .popup-image {
     padding: 0%;
     margin-bottom: 2%;
-    content: url('img/e3-desktop-img.png');
+    content: url('svg/project-popup-image.svg');
     background-repeat: no-repeat;
     background-size: contain;
   }
