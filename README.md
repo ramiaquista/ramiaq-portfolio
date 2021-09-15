@@ -10,7 +10,7 @@
 
 ## Built With
 
-- HTML - CSS
+- HTML - CSS - JavaScript
 - Git - Github - GitFlow
 
 
