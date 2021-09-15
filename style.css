@@ -1030,7 +1030,7 @@ form textarea {
   .popup-image {
     padding: 0%;
     margin-bottom: 2%;
-    content: url('svg/project-popup-image.svg');
+    content: url('img/e3-desktop-img.png');
     background-repeat: no-repeat;
     background-size: contain;
   }
