@@ -2,18 +2,18 @@ const popupDetails = document.querySelector('.popup-details');
 const projectBtn = document.querySelectorAll('.project-btn');
 
 const project1 = {
-  name: 'Tonic',
+  name: 'E3 Website',
   workDetails: {
-    subtitle: 'CANOPY',
-    section: 'Back End Dev',
-    date: 2015,
+    subtitle: 'Conferences',
+    section: 'Full Stack',
+    date: 2021,
   },
   description:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  image: 'svg/SnapshootPortfolio.svg',
+    "Its an informative page to announce the next E3 ( Electronic Entertainment Exposition ), the biggest gaming event that will take place in Los Angeles Convention Center on 2022.",
+  image: 'img/project-img.png',
   technologies: ['html', 'css', 'javascript'],
-  live: 'https://www.linkedin.com/in/ramiro-aquistapace-32b61b204/',
-  source: 'https://www.linkedin.com/in/ramiro-aquistapace-32b61b204/',
+  live: 'https://ramiaquista.github.io/conference-website/',
+  source: 'https://github.com/ramiaquista/conference-website',
 };
 
 const project2 = {
