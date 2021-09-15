@@ -43,6 +43,22 @@ Add Live Server VSCode extension to deploy a local host server in order to start
 - [My Portfolio](https://ramiaquista.github.io/ramiaq-portfolio/)
 
 
+### Test
+
+JavaScript Testing:
+```
+npx eslint .
+```
+
+HTML Testing:
+```
+npx hint .
+```
+
+CSS Testing:
+```
+npx stylelint "**/*.{css,scss}"
+```
 
 
 ## Authors
