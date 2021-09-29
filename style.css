@@ -687,15 +687,12 @@ form textarea {
 }
 
 #e3-img {
+  max-width: 100%;
+  height: auto;
   border-radius: 1.2rem;
 }
 
 @media only screen and (min-width: 1360px) {
-  #e3-img {
-    border-radius: 1.2rem;
-    margin-top: 30px;
-  }
-
   .header {
     display: flex;
     flex-direction: row;
