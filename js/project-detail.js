@@ -10,7 +10,7 @@ const project1 = {
   },
   description:
     'Its an informative page to announce the next E3 ( Electronic Entertainment Exposition ), the biggest gaming event that will take place in Los Angeles Convention Center on 2022.',
-  image: 'svg/Multi-Post-Stories.svg',
+  image: 'img/e3-popup-img.png',
   technologies: ['html', 'css', 'javascript'],
   live: 'https://ramiaquista.github.io/conference-website/',
   source: 'https://github.com/ramiaquista/conference-website',
