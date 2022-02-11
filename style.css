@@ -687,7 +687,7 @@ form textarea {
 }
 
 #e3-img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   border-radius: 1.2rem;
 }
@@ -795,7 +795,7 @@ form textarea {
 
   .normal .work-details {
     display: flex;
-    margin-left: 50px;
+    margin-left: 3.5vw;
   }
 
   .work-details a {
@@ -1036,7 +1036,7 @@ form textarea {
   .popup-image {
     padding: 0%;
     margin-bottom: 2%;
-    content: url('img/e3-popup-img.png');
+    /* content: url('img/e3-popup-img.png'); */
     border-radius: 1.2rem;
     background-repeat: no-repeat;
     background-size: contain;
