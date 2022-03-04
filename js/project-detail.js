@@ -26,39 +26,39 @@ const project2 = {
   description:
     "A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
   image: '../monesy-bg.png',
-  technologies: ['html', 'css', 'javascript'],
+  technologies: ['css', 'Rails', 'PostgreSQL'],
   live: 'https://monesy-budget.herokuapp.com/',
   source: 'https://github.com/ramiaquista/budget-app',
 };
 
 const project3 = {
-  name: 'Tonic',
+  name: 'Recipe App',
   workDetails: {
-    subtitle: 'CANOPY',
-    section: 'Back End Dev',
-    date: 2015,
+    subtitle: 'Recipe RoR App',
+    section: 'Full-Stack Dev',
+    date: 2022,
   },
   description:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  image: 'svg/Tonic-orange.svg',
-  technologies: ['html', 'css', 'javascript'],
-  live: 'https://www.linkedin.com/in/ramiro-aquistapace-32b61b204/',
-  source: 'https://www.linkedin.com/in/ramiro-aquistapace-32b61b204/',
+    "A Recipe List Application that allows user registration, creates recipes with already created (and available) foods and shows a customized shopping list based on necessary but unavailable food from the recipe.",
+  image: '../recipe-app-img.png',
+  technologies: ['css', 'Rails', 'PostgreSQL'],
+  live: 'https://recipe-app-lfmn.herokuapp.com/',
+  source: 'https://github.com/ramiaquista/recipe-app',
 };
 
 const project4 = {
-  name: 'Multi Post Stories',
+  name: 'Crypto Metrics',
   workDetails: {
-    subtitle: 'CANOPY',
-    section: 'Back End Dev',
-    date: 2015,
+    subtitle: 'Crypto Currencies',
+    section: 'Full-Stack Dev',
+    date: 2022,
   },
   description:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  image: 'svg/Multi-Post2.svg',
-  technologies: ['html', 'css', 'javascript'],
-  live: 'https://www.linkedin.com/in/ramiro-aquistapace-32b61b204/',
-  source: 'https://www.linkedin.com/in/ramiro-aquistapace-32b61b204/',
+    "In this project, I have build a mobile web application to check a list of metrics (numeric values) that I have created making use of React and Redux",
+  image: '../crypto-app-image.png',
+  technologies: ['React', 'Redux', 'Bootstrap'],
+  live: 'https://crypto-metrics.netlify.app/',
+  source: 'https://github.com/ramiaquista/crypto-metrics',
 };
 
 const projects = [project1, project2, project3, project4];
